@@ -13,7 +13,7 @@
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
     <mvc:resources mapping="/resources/img/**" location="/resources/img/" />
-    <context:component-scan base-package="com.ihatego3.springMVCtest"/>
+    <context:component-scan base-package="com.ihatego3.springMVC"/>
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/view/"/>
         <property name="suffix" value=".jsp"/>

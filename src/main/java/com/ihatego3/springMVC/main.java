@@ -1,4 +1,4 @@
-package com.ihatego3.springMVCtest;
+package com.ihatego3.springMVC;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
